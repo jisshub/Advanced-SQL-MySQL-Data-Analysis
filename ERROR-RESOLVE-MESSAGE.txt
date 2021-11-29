@@ -1,0 +1,25 @@
+Now it is working fine and the script was run successfully.
+
+What I did was deleting MySQL completely from my laptop and installed again and chose version 8.0.16  (the same version I noticed in the course video) and it worked fine after that.
+
+I followed these steps to uninstall my version before installing the new one
+
+Go to Control Panel >Programs and Features > Select MySQL > Click on Uninstall.
+
+Click on Start, type in Show hidden files and folders.
+
+Select the View tab and select Show hidden files and folders.
+
+Now explore the following locations and delete following folders.
+
+C:\Program Files\MySQL
+
+C:\Program Files (x86)\MySQL
+
+C:\ProgramData\MySQL
+
+And if exists, delete the folder from the location.
+
+C:\Users\[User-Name]\AppData\Roaming\MySQL
+
+Restart your device and check the status.

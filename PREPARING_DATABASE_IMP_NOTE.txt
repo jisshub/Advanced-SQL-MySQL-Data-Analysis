@@ -1,0 +1,20 @@
+So the create_mavenfuzzyfactory.sql file that you are going to be running in the next lecture is pretty big.
+Some students have experienced issues running this file due to their default max_allowed_packet setting. This basically just limits the size of a file that Workbench will run for you.
+
+The good news is, you can update your max_allowed_packet setting by running the following command in MySQL Workbench: 
+
+SET GLOBAL max_allowed_packet = 1073741824;
+
+Running this command will allow Workbench to accept a larger file (of size 1073741824 in this case).
+
+
+
+In order to run this command...
+
+1. Open Workbench and click into the Connection you set up previously
+
+2. Type the command into the editor (as pictured below)
+
+3. Click on the Lightning Bolt to run the query (the one without the cursor and without the magnifying glass is fine)
+
+
